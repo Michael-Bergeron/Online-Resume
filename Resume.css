@@ -1,6 +1,12 @@
-.button {
+h1 p{
+  font-size: 24px;
+  padding: 2px;
+  margin: 0px;
+}
+
+h1 #link{
   display: block;
-  width: 100px;
+  width: 200px;
   padding: 12px;
   border: 1px solid #77aaaa;
   font-family: arial;
@@ -11,6 +17,11 @@
   text-align: center;
   border-radius: 4px;
   background: #aadddd;
-  background: linear-gradient(top, #aadddd 0%, #77aaaa 100%);
-  
+  background: -webkit-linear-gradient(top, #aadddd 0%, #000090 100%);
+  background: -moz-linear-gradient(top, #aadddd 0%, #000090 100%);
 }
+
+h1 #link:hover{
+  background: #000070;
+}
+
